@@ -66,7 +66,7 @@
             {
                 Application obj = new Application();
 
-                string ans = "";
+                string a = "";
                 do
                 {
                     Console.WriteLine("Welcome to Expense Tracker App");
@@ -130,8 +130,8 @@
                             }
                     }
                     Console.WriteLine("Do you wish to continue? [y/n] ");
-                    ans = Console.ReadLine();
-                } while (ans.ToLower() == "y");
+                    a = Console.ReadLine();
+                } while (a.ToLower() == "y");
             }
         }
     }
